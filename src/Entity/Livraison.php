@@ -6,7 +6,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Livraison
- *
+ * @ORM\Entity(repositoryClass="App\Repository\LivraisonRepository")
  * @ORM\Table(name="livraison", indexes={@ORM\Index(name="idx_livraison_contrat", columns={"nocontrat"}), @ORM\Index(name="idx_livraison_date", columns={"dateliv"})})
  * @ORM\Entity
  */

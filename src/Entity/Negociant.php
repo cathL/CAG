@@ -6,7 +6,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Negociant
- *
+ * @ORM\Entity(repositoryClass="App\Repository\NegociantRepository")
  * @ORM\Table(name="negociant")
  * @ORM\Entity
  */

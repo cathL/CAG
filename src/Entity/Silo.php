@@ -6,7 +6,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Silo
- *
+ * @ORM\Entity(repositoryClass="App\Repository\SiloRepository")
  * @ORM\Table(name="silo", indexes={@ORM\Index(name="idx_silo_cereale", columns={"codecereale"})})
  * @ORM\Entity
  */
